@@ -1,15 +1,10 @@
-import React from "react";
 import { useQuery } from "@apollo/client";
 import { GET_CHARACTER } from "../queries/Queries";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import {
   Alert,
-  Container,
   Spinner,
-  Row,
-  Col,
   Card,
-  Button,
 } from "react-bootstrap";
 
 interface EpisodeProps {
