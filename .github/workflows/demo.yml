@@ -16,4 +16,4 @@ jobs:
           echo "NPM Version: $(npm --version)"
           echo "Working Directory: $(pwd)"
           echo "Directory Contents: $(ls -l)"
-          echo "node_modules: $(ls -l node-modules)"
+          echo "node_modules: $(ls -l node_modules)"
